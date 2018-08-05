@@ -517,7 +517,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerID: 0
-  charAsset: {fileID: 11400000, guid: 480171153d0e72d46889754854821468, type: 2}
+  charAsset: {fileID: 11400000, guid: 3d0f68bdc37dbd34f9ac6ceea2d376de, type: 2}
   PArea: {fileID: 963899039}
   usedHeroPowerThisTurn: 0
   deck: {fileID: 2069269786}
@@ -663,10 +663,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerID: 0
-  charAsset: {fileID: 11400000, guid: f54cdd142bbdf47418676b50e8dd60b8, type: 2}
+  charAsset: {fileID: 0}
   PArea: {fileID: 1845381753}
   usedHeroPowerThisTurn: 0
-  deck: {fileID: 1179533829}
+  deck: {fileID: 0}
   hand: {fileID: 1866637729}
   table: {fileID: 155136115}
 --- !u!114 &405968564
@@ -2018,7 +2018,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1179533828}
-  - component: {fileID: 1179533829}
   m_Layer: 0
   m_Name: Deck
   m_TagString: Untagged
@@ -2039,48 +2038,6 @@ Transform:
   m_Father: {fileID: 405968562}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1179533829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1179533827}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6a0bb49926f448b901fccadc7b1a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cards:
-  - {fileID: 11400000, guid: be2384aad67251e42b8158ee61abe7f8, type: 2}
-  - {fileID: 11400000, guid: be2384aad67251e42b8158ee61abe7f8, type: 2}
-  - {fileID: 11400000, guid: 5ac7c222a79955648b1bdd1b8270c25c, type: 2}
-  - {fileID: 11400000, guid: 8fa8d9d63e870ce42b957e501b3316e1, type: 2}
-  - {fileID: 11400000, guid: 8fa8d9d63e870ce42b957e501b3316e1, type: 2}
-  - {fileID: 11400000, guid: 0e2d8444db0fa8c4499fa0e9524fa310, type: 2}
-  - {fileID: 11400000, guid: baaed51c9d15e8b40abd7ee679fff00c, type: 2}
-  - {fileID: 11400000, guid: baaed51c9d15e8b40abd7ee679fff00c, type: 2}
-  - {fileID: 11400000, guid: 5971de69eb5f8244f9ca22f6008366b3, type: 2}
-  - {fileID: 11400000, guid: fa9578421d3e41845bbee642c2dcefbb, type: 2}
-  - {fileID: 11400000, guid: fa9578421d3e41845bbee642c2dcefbb, type: 2}
-  - {fileID: 11400000, guid: 267b050b43d3cae4ca6846beacc13664, type: 2}
-  - {fileID: 11400000, guid: 32b160964bd0000429c32e287e94848f, type: 2}
-  - {fileID: 11400000, guid: 32b160964bd0000429c32e287e94848f, type: 2}
-  - {fileID: 11400000, guid: d63610a0234dfd742a5e778448a98811, type: 2}
-  - {fileID: 11400000, guid: d63610a0234dfd742a5e778448a98811, type: 2}
-  - {fileID: 11400000, guid: 2aa52ce88be281d49ab48a121ca2f6fb, type: 2}
-  - {fileID: 11400000, guid: 2aa52ce88be281d49ab48a121ca2f6fb, type: 2}
-  - {fileID: 11400000, guid: 6de22587d1301dc48b2af04a8a3c6356, type: 2}
-  - {fileID: 11400000, guid: 77e3bc8770825af479282cc97b7f5bfd, type: 2}
-  - {fileID: 11400000, guid: 77e3bc8770825af479282cc97b7f5bfd, type: 2}
-  - {fileID: 11400000, guid: 12669e510bb007740b2c8bc2de5b27f5, type: 2}
-  - {fileID: 11400000, guid: 3ef247d288095d941a61e71837623863, type: 2}
-  - {fileID: 11400000, guid: 6de22587d1301dc48b2af04a8a3c6356, type: 2}
-  - {fileID: 11400000, guid: 6de22587d1301dc48b2af04a8a3c6356, type: 2}
-  - {fileID: 11400000, guid: 8fc3f806c883bf7478b6465500156bfb, type: 2}
-  - {fileID: 11400000, guid: d494b857d69fba140af08fc8c89836d3, type: 2}
-  - {fileID: 11400000, guid: d63610a0234dfd742a5e778448a98811, type: 2}
-  - {fileID: 11400000, guid: 6840d683aa5b58542b7f27d60ed55158, type: 2}
-  - {fileID: 11400000, guid: 20a400da171987a47af2bfe9347918f3, type: 2}
 --- !u!1 &1196660163
 GameObject:
   m_ObjectHideFlags: 0
@@ -3700,7 +3657,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2069269784}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b6a0bb49926f448b901fccadc7b1a3, type: 3}
+  m_Script: {fileID: 11500000, guid: cce45d5e946b44c23941498c28fbe94b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cards:
@@ -3734,6 +3691,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 64df78d3ffee4284686c6b2604d84ebc, type: 2}
   - {fileID: 11400000, guid: 2cdc692c2e553394fb786dfdc93cdb29, type: 2}
   - {fileID: 11400000, guid: d494b857d69fba140af08fc8c89836d3, type: 2}
+  cardsNo: 25
 --- !u!1 &2090344518
 GameObject:
   m_ObjectHideFlags: 0
@@ -3863,7 +3821,7 @@ Prefab:
         type: 2}
       propertyPath: charAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 480171153d0e72d46889754854821468,
+      objectReference: {fileID: 11400000, guid: 3d0f68bdc37dbd34f9ac6ceea2d376de,
         type: 2}
     - target: {fileID: 1000013230464716, guid: 647456eb6e5d32c429e40cdb89cce1f0, type: 2}
       propertyPath: m_TagString

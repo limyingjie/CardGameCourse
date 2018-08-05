@@ -16,9 +16,9 @@ public class CardUI : MonoBehaviour
    		Deck = GameObject.Find("DeckLogic").GetComponent<Deck>();
    		collection = GameObject.Find("CollectionLogic").GetComponent<PlayerCollection>();
    		Button button = gameObject.GetComponent<Button>();
-   		if(!collection.cards.Contains(current)){
-   			button.interactable = false;
-   		}
+   		// if(!collection.cards.Contains(current)){
+   		// 	button.interactable = false;
+   		// }
    		// if (current!=null){
    		// 	icon.sprite = current.CardImage;
    		// }
