@@ -334,6 +334,7 @@
     <Compile Include="Assets\Scripts\Dragging\DragSpellOnTarget.cs" />
     <Compile Include="Assets\Scripts\Logic\CardLogic.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureLogic.cs" />
+    <Compile Include="Assets\Scripts\Logic\CreatureScripts\BattlecryDraw2Cards.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\BiteOwner.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\CreatureEffect.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\DamageBothHero.cs" />
@@ -343,6 +344,7 @@
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\DrawCardBattlecry.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\DrawCardBattlecryDeathrattle.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\EndTurnBuff.cs" />
+    <Compile Include="Assets\Scripts\Logic\CreatureScripts\EndTurnSmallBuff.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\GainAtkBattlecry.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\HealEndTurn.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\IotAtkBattlecry.cs" />
