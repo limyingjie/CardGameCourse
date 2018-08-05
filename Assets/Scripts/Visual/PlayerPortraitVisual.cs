@@ -24,12 +24,17 @@ public class PlayerPortraitVisual : MonoBehaviour {
 	public void ApplyLookFromAsset()
     {
         HealthText.text = charAsset.MaxHealth.ToString();
-        HeroPowerIconImage.sprite = charAsset.HeroPowerIconImage;
+        if(HeroPowerIconImage!=null){
+        HeroPowerIconImage.sprite = charAsset.HeroPowerIconImage;}
+
+        if(HeroPowerBackgroundImage){
         HeroPowerBackgroundImage.sprite = charAsset.HeroPowerBGImage;
+        HeroPowerBackgroundImage.color = charAsset.HeroPowerBGTint;}
+
         PortraitImage.sprite = charAsset.AvatarImage;
         PortraitBackgroundImage.sprite = charAsset.AvatarBGImage;
 
-        HeroPowerBackgroundImage.color = charAsset.HeroPowerBGTint;
+        
         PortraitBackgroundImage.color = charAsset.AvatarBGTint;
 
     }
@@ -50,6 +55,11 @@ public class PlayerPortraitVisual : MonoBehaviour {
         s.PrependInterval(2f);
         s.OnComplete(() => GlobalSettings.Instance.GameOverPanel.SetActive(true));
     }
+
+    public void Choose(){
+        CharAssetLogic charAssetLogic = GameObject.Find("CharLogic").GetComponent<CharAssetLogic>();
+        charAssetLogic.playerChar = charAsset;
+    }  
 
 
 

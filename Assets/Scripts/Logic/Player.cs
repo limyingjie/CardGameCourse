@@ -129,6 +129,16 @@ public class Player : MonoBehaviour, ICharacter
         Players = GameObject.FindObjectsOfType<Player>();
         // obtain unique id from IDFactory
         PlayerID = IDFactory.GetUniqueID();
+
+        if (deck==null){
+            deck = GameObject.Find("DeckLogic").GetComponent<Deck>();
+            deck.cards.Shuffle();
+        }
+
+        if(charAsset == null){
+            CharAssetLogic charAssetLogic = GameObject.Find("CharLogic").GetComponent<CharAssetLogic>();
+            charAsset = charAssetLogic.playerChar;
+        }
     }
 
     public virtual void OnTurnStart()
