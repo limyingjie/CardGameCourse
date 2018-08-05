@@ -4,7 +4,7 @@ using System.Collections;
 public class EndTurnBuff : CreatureEffect
 {
     public EndTurnBuff(Player owner, CreatureLogic creature, int specialAmount) : base(owner, creature, specialAmount)
-    { }
+    {}
 
     public override void RegisterEventEffect()
     {
@@ -20,9 +20,8 @@ public class EndTurnBuff : CreatureEffect
 
     public override void CauseEventEffect()
     {
-        //new ChangeStatsCommand(creature.ID, specialAmount, owner.Health - specialAmount).AddToQueue();
-        //owner.Health -= specialAmount;
+        new ChangeStatsCommand(creature.ID, 2, 1, creature.Attack + 2, creature.Health + 1).AddToQueue();
+        creature.Attack += 2;
+        creature.MaxHealth += 1;
     }
-
-
 }

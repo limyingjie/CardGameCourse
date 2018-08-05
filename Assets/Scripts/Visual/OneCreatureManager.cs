@@ -61,7 +61,7 @@ public class OneCreatureManager : MonoBehaviour
 
     public void ChangeStats(int attackAmount,  int healthAmount, int attackAfter, int healthAfter)
     {
-        if (attackAmount != 0 && healthAmount != 0)
+        if (attackAmount != 0 || healthAmount != 0)
         {
             StatsEffect.CreateStatsEffect(transform.position, attackAmount, healthAmount);
             AttackText.text = System.Math.Max(attackAfter, 0).ToString();

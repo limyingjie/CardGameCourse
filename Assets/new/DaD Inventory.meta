@@ -1,6 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/new/DaD Inventory.meta
 guid: d57d567b7569f4410ac1df6f4d014911
 folderAsset: yes
+=======
+guid: f27a831448f797847880f0194e2ec48b
+folderAsset: yes
+timeCreated: 1533475556
+licenseType: Free
+>>>>>>> 5eff64b128af17d73030fe5cbc1df43d667507df:Assets/SO Assets/Creatures/Actual/Boss1.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

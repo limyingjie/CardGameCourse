@@ -11,7 +11,7 @@ public class BossAITurnMaker: AITurnMaker {
     public override void OnTurnStart()
     {
         //Trigger boss ability at 1st health threshold
-        if (bossState == 0 && p.Health <= 30) {
+        if (bossState == 0 && p.Health <= 20) {
             //p.GetACardNotFromDeck(ca1);
             //p.GetACardNotFromDeck(ca1);
             new ShowMessageCommand("LIMIT BREAK! \n eBot Army", 2.0f).AddToQueue();
@@ -26,7 +26,7 @@ public class BossAITurnMaker: AITurnMaker {
         }
 
         //Trigger boss ability at 2nd health threshold
-        if (bossState == 1 && p.Health <= 15) {
+        if (bossState == 1 && p.Health <= 10) {
             new ShowMessageCommand("LIMIT BREAK! \n eBot Army", 2.0f).AddToQueue();
             CardLogic cl1 = new CardLogic(ca1);
             CardLogic cl2 = new CardLogic(ca1);
@@ -34,7 +34,6 @@ public class BossAITurnMaker: AITurnMaker {
             InsertDelay(1.5f);
             p.PlayACreatureFromHand(cl2, 0);
             InsertDelay(1.5f);
-            bossState++;
             bossState++;
         }
 
