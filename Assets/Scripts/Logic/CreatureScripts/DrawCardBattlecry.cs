@@ -8,7 +8,7 @@ public class DrawCardBattlecry : CreatureEffect
 
     // BATTLECRY
     public override void WhenACreatureIsPlayed()
-    {
+    {   
         owner.DrawACard();
     }
 }

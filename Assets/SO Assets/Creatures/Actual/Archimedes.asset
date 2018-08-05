@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e206fc57f453a42b932de9e94caabf, type: 3}
+  m_Name: Archimedes
+  m_EditorClassIdentifier: 
+  characterAsset: {fileID: 11400000, guid: 79ee94f167be6ea4992f03dca8847cf9, type: 2}
+  Description: Gain +2/+1 at the end of each turn of yours.
+  CardImage: {fileID: 21300000, guid: ff7a3f6823c551b4d86f4a1b48821d65, type: 3}
+  ManaCost: 3
+  OverloadCost: 0
+  MaxHealth: 2
+  Attack: 2
+  AttacksForOneTurn: 1
+  Charge: 0
+  Taunt: 0
+  CreatureScriptName: EndTurnBuff
+  specialCreatureAmount: 1
+  SpellScriptName: 
+  specialSpellAmount: 0
+  Targets: 0
