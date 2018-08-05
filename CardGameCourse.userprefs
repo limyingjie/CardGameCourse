@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Logic\Player.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Visual\DamageEffect.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Visual\DamageEffectTest.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Logic\CreatureScripts\BiteOwner.cs" Line="16" Column="1" />
+      <File FileName="Assets\Scripts\Logic\CreatureScripts\CreatureEffect.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Logic\CreatureLogic.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Logic\Player.cs" Line="100" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
