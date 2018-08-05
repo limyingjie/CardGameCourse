@@ -5,7 +5,7 @@ using UnityEngine;
 public class DamageBothHero : CreatureEffect
 {
     public DamageBothHero(Player owner, CreatureLogic creature, int specialAmount) : base(owner, creature, specialAmount)
-    { }
+    {}
 
     // BATTLECRY
     public override void WhenACreatureIsPlayed()

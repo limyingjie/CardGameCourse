@@ -8,7 +8,7 @@ public class Loan : SpellEffect
         TurnManager.Instance.whoseTurn.DrawACard();
         TurnManager.Instance.whoseTurn.DrawACard();
 
-        new DealDamageCommand(TurnManager.Instance.whoseTurn.otherPlayer.PlayerID, -2, TurnManager.Instance.whoseTurn.otherPlayer.Health + 2).AddToQueue();
-        TurnManager.Instance.whoseTurn.otherPlayer.Health += 2;
+        new DealDamageCommand(TurnManager.Instance.whoseTurn.otherPlayer.PlayerID, -7, TurnManager.Instance.whoseTurn.otherPlayer.Health + 7).AddToQueue();
+        TurnManager.Instance.whoseTurn.otherPlayer.Health += 7;
     }
 }

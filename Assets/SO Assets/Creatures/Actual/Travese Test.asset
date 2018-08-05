@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41e206fc57f453a42b932de9e94caabf, type: 3}
   m_Name: Travese Test
   m_EditorClassIdentifier: 
-  characterAsset: {fileID: 0}
+  characterAsset: {fileID: 11400000, guid: f54cdd142bbdf47418676b50e8dd60b8, type: 2}
   Description: Deal 1 DAMAGE to all creatures
   CardImage: {fileID: 21300000, guid: 9f3a0e67d354b29498a1c39188d69b5f, type: 3}
   ManaCost: 1
@@ -25,4 +25,4 @@ MonoBehaviour:
   specialCreatureAmount: 0
   SpellScriptName: DamageAllCharacters
   specialSpellAmount: 1
-  Targets: 4
+  Targets: 0

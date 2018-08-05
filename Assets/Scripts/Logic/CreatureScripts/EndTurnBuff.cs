@@ -4,7 +4,7 @@ using System.Collections;
 public class EndTurnBuff : CreatureEffect
 {
     public EndTurnBuff(Player owner, CreatureLogic creature, int specialAmount) : base(owner, creature, specialAmount)
-    { }
+    {}
 
     public override void RegisterEventEffect()
     {
@@ -24,6 +24,4 @@ public class EndTurnBuff : CreatureEffect
         creature.Attack += 2;
         creature.MaxHealth += 1;
     }
-
-
 }

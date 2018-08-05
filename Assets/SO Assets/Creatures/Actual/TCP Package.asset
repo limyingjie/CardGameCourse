@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41e206fc57f453a42b932de9e94caabf, type: 3}
   m_Name: TCP Package
   m_EditorClassIdentifier: 
-  characterAsset: {fileID: 0}
+  characterAsset: {fileID: 11400000, guid: f54cdd142bbdf47418676b50e8dd60b8, type: 2}
   Description: 'Battlecry, Deathrattlle: Draw a card'
   CardImage: {fileID: 21300000, guid: 21408cbceef31a74d908a623f0830226, type: 3}
   ManaCost: 5

@@ -87,6 +87,7 @@
     <Compile Include="Assets\Scripts\Dragging\DragSpellOnTarget.cs" />
     <Compile Include="Assets\Scripts\Logic\CardLogic.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureLogic.cs" />
+    <Compile Include="Assets\Scripts\Logic\CreatureScripts\BattlecryDraw2Cards.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\BiteOwner.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\CreatureEffect.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\DamageBothHero.cs" />
@@ -96,6 +97,7 @@
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\DrawCardBattlecry.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\DrawCardBattlecryDeathrattle.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\EndTurnBuff.cs" />
+    <Compile Include="Assets\Scripts\Logic\CreatureScripts\EndTurnSmallBuff.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\HealEndTurn.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\IotAtkBattlecry.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\IotAtkHpBattlecry.cs" />
@@ -106,7 +108,10 @@
     <Compile Include="Assets\Scripts\Logic\Interfaces.cs" />
     <Compile Include="Assets\Scripts\Logic\Player.cs" />
     <Compile Include="Assets\Scripts\Logic\RopeTimer.cs" />
+    <Compile Include="Assets\Scripts\Logic\SpellScripts\AdvancedOptimize.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\AWSCredit.cs" />
+    <Compile Include="Assets\Scripts\Logic\SpellScripts\BonusMana.cs" />
+    <Compile Include="Assets\Scripts\Logic\SpellScripts\CardThrow.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\ChangeStatsTarget.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\DamageAllCharacters.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\DamageAllOpponentCreatures.cs" />
@@ -118,12 +123,16 @@
     <Compile Include="Assets\Scripts\Logic\SpellScripts\GiveManaBonus.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\HeroPower2Face.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\HeroPowerDrawCardTakeDamage.cs" />
+    <Compile Include="Assets\Scripts\Logic\SpellScripts\Loan.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\ManaBurn.cs" />
+    <Compile Include="Assets\Scripts\Logic\SpellScripts\Optimize.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\Rigor.cs" />
+    <Compile Include="Assets\Scripts\Logic\SpellScripts\ShortSelling.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\SpellEffect.cs" />
     <Compile Include="Assets\Scripts\Logic\Table.cs" />
     <Compile Include="Assets\Scripts\Logic\TurnManager.cs" />
     <Compile Include="Assets\Scripts\Logic\TurnsAndAI\AITurnMaker.cs" />
+    <Compile Include="Assets\Scripts\Logic\TurnsAndAI\BossAI2TurnMaker.cs" />
     <Compile Include="Assets\Scripts\Logic\TurnsAndAI\BossAITurnMaker.cs" />
     <Compile Include="Assets\Scripts\Logic\TurnsAndAI\PlayerTurnMaker.cs" />
     <Compile Include="Assets\Scripts\Logic\TurnsAndAI\TurnMaker.cs" />
@@ -165,11 +174,11 @@
     <None Include="Assets\DOTween\DOTween46.xml" />
     <None Include="Assets\DOTween\DOTween50.xml" />
     <None Include="Assets\DOTween\readme.txt" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Github_repos/CardGameCourse/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Github_repos/CardGameCourse/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>D:/Github_repos/CardGameCourse/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
