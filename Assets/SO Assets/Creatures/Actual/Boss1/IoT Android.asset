@@ -16,13 +16,13 @@ MonoBehaviour:
   CardImage: {fileID: 21300000, guid: 2441547268499a344aaf10d90c7a25fd, type: 3}
   ManaCost: 4
   OverloadCost: 0
-  MaxHealth: 3
-  Attack: 5
+  MaxHealth: 5
+  Attack: 3
   AttacksForOneTurn: 1
   Charge: 0
   Taunt: 0
-  CreatureScriptName: 
+  CreatureScriptName: IotAtkHpBattlecry
   specialCreatureAmount: 0
-  SpellScriptName: IotAtkHpBattlecry
+  SpellScriptName: 
   specialSpellAmount: 0
   Targets: 0

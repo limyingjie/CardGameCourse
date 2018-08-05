@@ -23,6 +23,6 @@ MonoBehaviour:
   Taunt: 0
   CreatureScriptName: BattlecryDraw2Cards
   specialCreatureAmount: 2
-  SpellScriptName: DrawCardBattlecry
-  specialSpellAmount: 2
+  SpellScriptName: 
+  specialSpellAmount: 0
   Targets: 0

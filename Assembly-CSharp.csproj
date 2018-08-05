@@ -98,6 +98,7 @@
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\DrawCardBattlecryDeathrattle.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\EndTurnBuff.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\EndTurnSmallBuff.cs" />
+    <Compile Include="Assets\Scripts\Logic\CreatureScripts\GainAtkBattlecry.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\HealEndTurn.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\IotAtkBattlecry.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\IotAtkHpBattlecry.cs" />
@@ -174,11 +175,11 @@
     <None Include="Assets\DOTween\DOTween46.xml" />
     <None Include="Assets\DOTween\DOTween50.xml" />
     <None Include="Assets\DOTween\readme.txt" />
-    <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/Github_repos/CardGameCourse/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>D:/Github_repos/CardGameCourse/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>D:/Github_repos/CardGameCourse/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

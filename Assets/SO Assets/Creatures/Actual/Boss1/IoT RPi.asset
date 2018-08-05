@@ -21,8 +21,8 @@ MonoBehaviour:
   AttacksForOneTurn: 1
   Charge: 0
   Taunt: 0
-  CreatureScriptName: 
+  CreatureScriptName: IotAtkBattlecry
   specialCreatureAmount: 0
-  SpellScriptName: IotAtkBattlecry
+  SpellScriptName: 
   specialSpellAmount: 0
   Targets: 0

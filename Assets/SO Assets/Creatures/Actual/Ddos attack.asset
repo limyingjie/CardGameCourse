@@ -13,8 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterAsset: {fileID: 11400000, guid: f54cdd142bbdf47418676b50e8dd60b8, type: 2}
   Description: Opponent gets 4 less mana next turn
-  CardImage: {fileID: 0}
-  ManaCost: 0
+  CardImage: {fileID: 21300000, guid: 2d132c24419c40d48b51826c8391b215, type: 3}
+  ManaCost: 4
   OverloadCost: 0
   MaxHealth: 0
   Attack: 0
