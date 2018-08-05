@@ -336,12 +336,14 @@
     <Compile Include="Assets\Scripts\Logic\CreatureLogic.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\BiteOwner.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\CreatureEffect.cs" />
+    <Compile Include="Assets\Scripts\Logic\CreatureScripts\DamageBothHero.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\DamageOpponentBattlecry.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\DamageOpponentDeathrattle.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\DamageRandomOpponentCreature.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\DrawCardBattlecry.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\DrawCardBattlecryDeathrattle.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\EndTurnBuff.cs" />
+    <Compile Include="Assets\Scripts\Logic\CreatureScripts\GainAtkBattlecry.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\HealEndTurn.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\IotAtkBattlecry.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\IotAtkHpBattlecry.cs" />

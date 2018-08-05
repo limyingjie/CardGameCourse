@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterAsset: {fileID: 0}
   Description: Bites your player for 2 HP in the end of each turn
-  CardImage: {fileID: 21300000, guid: a31d93645ca57774c83633e70f1be8df, type: 3}
+  CardImage: {fileID: 21300000, guid: 778f603d6a69da04aacf6b1e8c9158ad, type: 3}
   ManaCost: 2
   OverloadCost: 0
   MaxHealth: 4
