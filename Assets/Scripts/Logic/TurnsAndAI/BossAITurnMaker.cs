@@ -35,7 +35,6 @@ public class BossAITurnMaker: AITurnMaker {
             p.PlayACreatureFromHand(cl2, 0);
             InsertDelay(1.5f);
             bossState++;
-            bossState++;
         }
 
         base.OnTurnStart();

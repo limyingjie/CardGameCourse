@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/BattleScene.unity
+=======
+- path: Assets/Boss2AIvsAIScene.unity
+>>>>>>> a06793360d984ce799e598bb5a605be8ed1579f8
   isLoaded: 1
   isActive: 1
