@@ -22,7 +22,7 @@ MonoBehaviour:
   Charge: 1
   Taunt: 1
   CreatureScriptName: DrawCardBattlecry
-  specialCreatureAmount: 1
+  specialCreatureAmount: 0
   SpellScriptName: 
   specialSpellAmount: 0
   Targets: 0
