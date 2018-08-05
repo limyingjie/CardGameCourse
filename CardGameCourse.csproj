@@ -352,7 +352,10 @@
     <Compile Include="Assets\Scripts\Logic\Interfaces.cs" />
     <Compile Include="Assets\Scripts\Logic\Player.cs" />
     <Compile Include="Assets\Scripts\Logic\RopeTimer.cs" />
+    <Compile Include="Assets\Scripts\Logic\SpellScripts\AdvancedOptimize.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\AWSCredit.cs" />
+    <Compile Include="Assets\Scripts\Logic\SpellScripts\BonusMana.cs" />
+    <Compile Include="Assets\Scripts\Logic\SpellScripts\CardThrow.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\ChangeStatsTarget.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\DamageAllCharacters.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\DamageAllOpponentCreatures.cs" />
@@ -364,12 +367,16 @@
     <Compile Include="Assets\Scripts\Logic\SpellScripts\GiveManaBonus.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\HeroPower2Face.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\HeroPowerDrawCardTakeDamage.cs" />
+    <Compile Include="Assets\Scripts\Logic\SpellScripts\Loan.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\ManaBurn.cs" />
+    <Compile Include="Assets\Scripts\Logic\SpellScripts\Optimize.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\Rigor.cs" />
+    <Compile Include="Assets\Scripts\Logic\SpellScripts\ShortSelling.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\SpellEffect.cs" />
     <Compile Include="Assets\Scripts\Logic\Table.cs" />
     <Compile Include="Assets\Scripts\Logic\TurnManager.cs" />
     <Compile Include="Assets\Scripts\Logic\TurnsAndAI\AITurnMaker.cs" />
+    <Compile Include="Assets\Scripts\Logic\TurnsAndAI\BossAI2TurnMaker.cs" />
     <Compile Include="Assets\Scripts\Logic\TurnsAndAI\BossAITurnMaker.cs" />
     <Compile Include="Assets\Scripts\Logic\TurnsAndAI\PlayerTurnMaker.cs" />
     <Compile Include="Assets\Scripts\Logic\TurnsAndAI\TurnMaker.cs" />

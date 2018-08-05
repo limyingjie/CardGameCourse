@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/BossAIvsAIScene.unity
+- path: Assets/Boss2AIvsAIScene.unity
   isLoaded: 1
   isActive: 1
