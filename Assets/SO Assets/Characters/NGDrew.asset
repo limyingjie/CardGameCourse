@@ -15,7 +15,7 @@ MonoBehaviour:
   ClassName: WONG JANG
   MaxHealth: 30
   HeroPowerName: HeroPower2Face
-  AvatarImage: {fileID: 21300000, guid: 82c207beaa485f44488b77daa1d8b4fa, type: 3}
+  AvatarImage: {fileID: 21300000, guid: 0110a1bbd7a232147b45cb0702116cab, type: 3}
   HeroPowerIconImage: {fileID: 21300000, guid: 1b17c6327b70beb46910303376eea71b, type: 3}
   AvatarBGImage: {fileID: 0}
   HeroPowerBGImage: {fileID: 0}

@@ -517,7 +517,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerID: 0
-  charAsset: {fileID: 11400000, guid: 480171153d0e72d46889754854821468, type: 2}
+  charAsset: {fileID: 11400000, guid: 3d0f68bdc37dbd34f9ac6ceea2d376de, type: 2}
   PArea: {fileID: 963899039}
   usedHeroPowerThisTurn: 0
   deck: {fileID: 2069269786}
