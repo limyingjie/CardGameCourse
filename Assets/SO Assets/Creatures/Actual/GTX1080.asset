@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41e206fc57f453a42b932de9e94caabf, type: 3}
   m_Name: GTX1080
   m_EditorClassIdentifier: 
-  characterAsset: {fileID: 0}
+  characterAsset: {fileID: 11400000, guid: c1fce3911b80aa24e9b4ae2cea2f384b, type: 2}
   Description: 
   CardImage: {fileID: 21300000, guid: f4cfb1108636e46a0b5e68d685a0f8ca, type: 3}
   ManaCost: 6

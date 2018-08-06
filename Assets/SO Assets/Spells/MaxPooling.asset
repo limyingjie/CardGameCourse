@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41e206fc57f453a42b932de9e94caabf, type: 3}
   m_Name: MaxPooling
   m_EditorClassIdentifier: 
-  characterAsset: {fileID: 0}
+  characterAsset: {fileID: 11400000, guid: d11963d1dc8ccec44b390791c2e289d8, type: 2}
   Description: Reserve only the creature with highest attack on both side
   CardImage: {fileID: 21300000, guid: 3f215084958004f04996ffc5d5309b36, type: 3}
   ManaCost: 5

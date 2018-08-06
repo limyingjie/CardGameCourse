@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41e206fc57f453a42b932de9e94caabf, type: 3}
   m_Name: AverageFilter
   m_EditorClassIdentifier: 
-  characterAsset: {fileID: 0}
+  characterAsset: {fileID: 11400000, guid: d11963d1dc8ccec44b390791c2e289d8, type: 2}
   Description: Deal 4 damage to creatures with attack <3 and >5
   CardImage: {fileID: 21300000, guid: a6c65b73f354a4b8c8116eb7bec80480, type: 3}
   ManaCost: 6

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
@@ -25,34 +24,3 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
-=======
-﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGameCourse", "Assembly-CSharp.csproj", "{3340FAF6-5668-0CDC-2716-99C4B9A60A4A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGameCourse", "Assembly-CSharp-Editor.csproj", "{84B14BD1-0CFA-B79F-6521-B6F40E36584E}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3340FAF6-5668-0CDC-2716-99C4B9A60A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3340FAF6-5668-0CDC-2716-99C4B9A60A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3340FAF6-5668-0CDC-2716-99C4B9A60A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3340FAF6-5668-0CDC-2716-99C4B9A60A4A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{84B14BD1-0CFA-B79F-6521-B6F40E36584E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{84B14BD1-0CFA-B79F-6521-B6F40E36584E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{84B14BD1-0CFA-B79F-6521-B6F40E36584E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{84B14BD1-0CFA-B79F-6521-B6F40E36584E}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
-	EndGlobalSection
-EndGlobal
->>>>>>> 5a217374fff598e1af92c5b93df12565fc6ec08e

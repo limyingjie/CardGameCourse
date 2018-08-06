@@ -11,9 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41e206fc57f453a42b932de9e94caabf, type: 3}
   m_Name: SpoiledEbot
   m_EditorClassIdentifier: 
-  characterAsset: {fileID: 0}
+  characterAsset: {fileID: 11400000, guid: c1fce3911b80aa24e9b4ae2cea2f384b, type: 2}
   Description: Deal 2 damage to all creatures.
-  CardImage: {fileID: 0}
+  CardImage: {fileID: 21300000, guid: 34e28567b55eb4c629ab3eef56b1db4f, type: 3}
   ManaCost: 6
   OverloadCost: 2
   MaxHealth: 4

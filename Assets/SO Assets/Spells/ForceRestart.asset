@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41e206fc57f453a42b932de9e94caabf, type: 3}
   m_Name: ForceRestart
   m_EditorClassIdentifier: 
-  characterAsset: {fileID: 0}
+  characterAsset: {fileID: 11400000, guid: c1fce3911b80aa24e9b4ae2cea2f384b, type: 2}
   Description: deal 12 damage to all creatures.
   CardImage: {fileID: 21300000, guid: 84d71242b5c32436c9c093b457df7625, type: 3}
   ManaCost: 0
