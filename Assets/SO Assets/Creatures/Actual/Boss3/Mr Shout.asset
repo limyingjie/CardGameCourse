@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterAsset: {fileID: 0}
   Description: Taunt
-  CardImage: {fileID: 21300000, guid: 7302dd72f4d54c24d8f1bf2f1c346c37, type: 3}
+  CardImage: {fileID: 21300000, guid: d22859a5d1b73cd4bae3c6575fff6525, type: 3}
   ManaCost: 0
   OverloadCost: 0
   MaxHealth: 9
