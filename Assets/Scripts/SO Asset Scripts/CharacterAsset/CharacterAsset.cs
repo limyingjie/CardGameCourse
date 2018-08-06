@@ -17,4 +17,7 @@ public class CharacterAsset : ScriptableObject
     public Color32 HeroPowerBGTint;
     public Color32 ClassCardTint;
     public Color32 ClassRibbonsTint;
+
+    
+
 }

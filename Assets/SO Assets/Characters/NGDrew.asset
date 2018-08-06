@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: NGDrew
   m_EditorClassIdentifier: 
   Class: 1
-  ClassName: WONG JANG
+  ClassName: NGDrew
   MaxHealth: 30
   HeroPowerName: HeroPower2Face
   AvatarImage: {fileID: 21300000, guid: 0110a1bbd7a232147b45cb0702116cab, type: 3}

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c1ae151b5930f4442877e901e09da7e9
+timeCreated: 1511782866
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: a_AntiqueTrady
+  fontNames:
+  - a_AntiqueTrady
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
