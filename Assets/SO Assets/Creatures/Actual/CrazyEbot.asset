@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: CrazyEbot
   m_EditorClassIdentifier: 
   characterAsset: {fileID: 11400000, guid: c1fce3911b80aa24e9b4ae2cea2f384b, type: 2}
-  Description: Deal 8 damage to random enemy creature per turn.
+  Description: Deal 8 damage to an enemy creature at end of your turn.
   CardImage: {fileID: 21300000, guid: 02044bee3a1e046d1a69b9d2eb844bb0, type: 3}
   ManaCost: 6
   OverloadCost: 0

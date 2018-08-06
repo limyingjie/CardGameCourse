@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: ProfessionalAIDeveloper
   m_EditorClassIdentifier: 
   characterAsset: {fileID: 11400000, guid: d11963d1dc8ccec44b390791c2e289d8, type: 2}
-  Description: Gain +2/+2 at the end of your turn
+  Description: Gain +2/+2 at the end of your turn. Charge.
   CardImage: {fileID: 21300000, guid: bf2841887e8ec469198d71aefff709ef, type: 3}
   ManaCost: 10
   OverloadCost: 0
