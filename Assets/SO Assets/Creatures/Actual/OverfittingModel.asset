@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: OverfittingModel
   m_EditorClassIdentifier: 
   characterAsset: {fileID: 11400000, guid: d11963d1dc8ccec44b390791c2e289d8, type: 2}
-  Description: Deal 5 damage to your hero at the end of your turn
+  Description: -5 hero HP at the end of your turn.  Charge.
   CardImage: {fileID: 21300000, guid: e8c216e57ae5847abb46c32a590994ba, type: 3}
   ManaCost: 6
   OverloadCost: 0
