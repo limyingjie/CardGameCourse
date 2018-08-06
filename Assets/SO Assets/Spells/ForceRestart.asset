@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: ForceRestart
   m_EditorClassIdentifier: 
   characterAsset: {fileID: 11400000, guid: c1fce3911b80aa24e9b4ae2cea2f384b, type: 2}
-  Description: deal 12 damage to all creatures.
+  Description: deal 12 damage to all creatures. Overload 10.
   CardImage: {fileID: 21300000, guid: 84d71242b5c32436c9c093b457df7625, type: 3}
   ManaCost: 0
   OverloadCost: 10
