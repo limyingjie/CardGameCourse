@@ -79,11 +79,13 @@ public class OneCardManager : MonoBehaviour {
             AttackText.text = cardAsset.Attack.ToString();
             HealthText.text = cardAsset.MaxHealth.ToString();
         }else{
-            // print("00");
-            Health = gameObject.transform.Find("Health").gameObject;
-            Attack = gameObject.transform.Find("Attack").gameObject;
-            Health.SetActive(false);
-            Attack.SetActive(false);
+            if(gameObject.transform.Find("Health")!=null && gameObject.transform.Find("Attack")!=null){
+                Health = gameObject.transform.Find("Health").gameObject;
+                Attack = gameObject.transform.Find("Attack").gameObject;
+                Health.SetActive(false);
+                Attack.SetActive(false);
+                
+            }
         }
 
         if (PreviewManager != null)
