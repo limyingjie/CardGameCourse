@@ -11,11 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 917561878a8602640ab159ede231f37f, type: 3}
   m_Name: B-lex Ander
   m_EditorClassIdentifier: 
-  Class: 1
-  ClassName: WONG JANG
+  Class: 4
+  ClassName: B-lex Ander
   MaxHealth: 30
   HeroPowerName: HeroPower2Face
-  AvatarImage: {fileID: 21300000, guid: 82c207beaa485f44488b77daa1d8b4fa, type: 3}
+  AvatarImage: {fileID: 21300000, guid: 674e1b9e16037ef448eaed98837c3ff3, type: 3}
   HeroPowerIconImage: {fileID: 21300000, guid: d82d60a0de6a06a4d965f2e298847d9f, type: 3}
   AvatarBGImage: {fileID: 0}
   HeroPowerBGImage: {fileID: 0}
