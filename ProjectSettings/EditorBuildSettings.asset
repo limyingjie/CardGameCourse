@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/BossAIvsPlayerScene.unity
     guid: 0a6280624cbdcc642af22272fa98954e
+  - enabled: 1
+    path: Assets/Level2.unity
+    guid: 71eb7241f126140448d34cabb69c13f3
+  - enabled: 1
+    path: Assets/Level3.unity
+    guid: abca8b59e30cd47e98e30124e0a4fb8d
   m_configObjects: {}

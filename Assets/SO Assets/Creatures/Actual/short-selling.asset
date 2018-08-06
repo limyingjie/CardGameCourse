@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: short-selling
   m_EditorClassIdentifier: 
   characterAsset: {fileID: 11400000, guid: 79ee94f167be6ea4992f03dca8847cf9, type: 2}
-  Description: 
+  Description: Deal 2 DAMAGE to a enemy character and enemy hero
   CardImage: {fileID: 21300000, guid: 74180962f8d7dba43818bd33f16ed249, type: 3}
   ManaCost: 2
   OverloadCost: 0

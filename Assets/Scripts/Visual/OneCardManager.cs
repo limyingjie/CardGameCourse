@@ -24,8 +24,16 @@ public class OneCardManager : MonoBehaviour {
     public Image CardFaceGlowImage;
     public Image CardBackGlowImage;
 
+    private Text CardTypeName;
+
     void Awake()
-    {
+    {   
+        if(gameObject.transform.Find("CardType")!=null){
+            if(gameObject.transform.Find("CardType").transform.Find("CardTypeText").GetComponent<Text>()!=null){
+            CardTypeName = gameObject.transform.Find("CardType").transform.Find("CardTypeText").GetComponent<Text>();
+        }
+        }
+        
         if (cardAsset != null)
             ReadCardFromAsset();
     }
@@ -95,5 +103,13 @@ public class OneCardManager : MonoBehaviour {
             PreviewManager.cardAsset = cardAsset;
             PreviewManager.ReadCardFromAsset();
         }
+
+        if(CardTypeName!=null){
+            if(cardAsset.SpellScriptName!=""){
+                CardTypeName.text = "Spell";
+            }
+            else{CardTypeName.text = "Creature";}
+        }
+
     }
 }
