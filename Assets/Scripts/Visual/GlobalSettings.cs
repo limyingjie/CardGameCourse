@@ -28,6 +28,7 @@ public class GlobalSettings: MonoBehaviour
     public Button EndTurnButton;
     //public CardAsset CoinCard;
     public GameObject GameOverPanel;
+    public GameObject WinningPanel;
     //public Sprite HeroPowerCrossMark;
 
     public Dictionary<AreaPosition, Player> Players = new Dictionary<AreaPosition, Player>();

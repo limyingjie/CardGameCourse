@@ -53,7 +53,13 @@ public class PlayerPortraitVisual : MonoBehaviour {
         Instantiate(GlobalSettings.Instance.ExplosionPrefab, transform.position, Quaternion.identity);
         Sequence s = DOTween.Sequence();
         s.PrependInterval(2f);
-        s.OnComplete(() => GlobalSettings.Instance.GameOverPanel.SetActive(true));
+
+        if(charAsset.Class.ToString() == "Boss"){
+            s.OnComplete(() => GlobalSettings.Instance.WinningPanel.SetActive(true));
+        }else{
+            s.OnComplete(() => GlobalSettings.Instance.GameOverPanel.SetActive(true));
+        }
+        
     }
 
     public void Choose(){

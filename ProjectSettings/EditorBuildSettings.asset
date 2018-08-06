@@ -9,8 +9,11 @@ EditorBuildSettings:
     path: Assets/AIScene_Taunt.unity
     guid: 8117b98d8dcfc6a458d32778c208b1da
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/new/Menu.unity
     guid: 0b781ef58061f41d69ebe856ad39eb54
   - enabled: 1
+=======
+>>>>>>> 5a217374fff598e1af92c5b93df12565fc6ec08e
     path: Assets/BossAIvsPlayerScene.unity
     guid: 0a6280624cbdcc642af22272fa98954e
