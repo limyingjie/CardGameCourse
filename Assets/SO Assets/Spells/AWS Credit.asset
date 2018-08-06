@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterAsset: {fileID: 0}
   Description: 
-  CardImage: {fileID: 21300000, guid: 5134138d1a3450e4ba3d7bf5d83dbd8f, type: 3}
+  CardImage: {fileID: 21300000, guid: 6eba6aa1b26d09e4291f101967a70450, type: 3}
   ManaCost: 1
   OverloadCost: 0
   MaxHealth: 0

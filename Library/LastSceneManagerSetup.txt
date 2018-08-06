@@ -1,4 +1,7 @@
 sceneSetups:
-- path: Assets/BossAIvsPlayerScene.unity
+- path: Assets/new/Menu.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/BossAIvsPlayerScene.unity
+  isLoaded: 0
+  isActive: 0

@@ -4,8 +4,4 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/AIScene_Taunt.unity
-    guid: 8117b98d8dcfc6a458d32778c208b1da
-  m_configObjects: {}
+  m_Scenes: []

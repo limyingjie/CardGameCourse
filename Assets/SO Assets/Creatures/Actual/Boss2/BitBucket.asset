@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: BitBucket
   m_EditorClassIdentifier: 
   characterAsset: {fileID: 0}
-  Description: 'Battlecry: Gain +1 HP for each friendly IoT creature'
-  CardImage: {fileID: 21300000, guid: 778f603d6a69da04aacf6b1e8c9158ad, type: 3}
+  Description: 'Battlecry: Gain +1 ATK for each friendly creature'
+  CardImage: {fileID: 21300000, guid: 3a6df90c67f308b4fa028358e4bd026a, type: 3}
   ManaCost: 3
   OverloadCost: 0
   MaxHealth: 6

@@ -289,6 +289,9 @@
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>Library\UnityAssemblies\UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>Library\FacebookSDK\Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets\DOTween\DOTween.dll</HintPath>
     </Reference>

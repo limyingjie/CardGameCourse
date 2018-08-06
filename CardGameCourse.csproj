@@ -289,6 +289,9 @@
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>Library\UnityAssemblies\UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>Library\FacebookSDK\Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets\DOTween\DOTween.dll</HintPath>
     </Reference>
@@ -306,6 +309,43 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\new\CardUI.cs" />
+    <Compile Include="Assets\new\CharAssetLogic.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Demo\DummyEquipment.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Demo\DummyHealthBar.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Demo\DummyHealthPotion.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Demo\DummyInventoryControl.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Demo\DummyItemPickUp.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Demo\DummyParameters.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Demo\DummyQuickSlotsGroup.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Demo\DummySkillsControl.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Inventory\Cell\DadCell.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Inventory\Cell\QuickCell.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Inventory\Cell\SortCell.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Inventory\Cell\StackCell.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Inventory\CoroutineContainer.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Inventory\Group\PriceGroup.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Inventory\Group\StackGroup.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Inventory\Highlight.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Inventory\Item\ClickItem.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Inventory\Item\CooldownItem.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Inventory\Item\DadItem.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Inventory\Item\PriceItem.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Inventory\Item\QuickItem.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Inventory\Item\SortItem.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Inventory\Item\StackItem.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Inventory\SplitInterface.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Utility\CameraFillSprite.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Utility\CellSizeControl.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Utility\ClickEquipGroup.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Utility\Gets.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Utility\SaveLoad.cs" />
+    <Compile Include="Assets\new\DaD Inventory\Scripts\Utility\TextVerticalFit.cs" />
+    <Compile Include="Assets\new\Deck.cs" />
+    <Compile Include="Assets\new\DeckUI.cs" />
+    <Compile Include="Assets\new\GetDeck.cs" />
+    <Compile Include="Assets\new\LoadScene.cs" />
+    <Compile Include="Assets\new\PlayerCollection.cs" />
     <Compile Include="Assets\Scripts\BattleStartInfo.cs" />
     <Compile Include="Assets\Scripts\Commands\ChangeStatsCommand.cs" />
     <Compile Include="Assets\Scripts\Commands\Command.cs" />
@@ -338,41 +378,53 @@
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\BiteOwner.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\CreatureEffect.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\DamageBothHero.cs" />
+    <Compile Include="Assets\Scripts\Logic\CreatureScripts\DamageEnemies.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\DamageOpponentBattlecry.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\DamageOpponentDeathrattle.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\DamageRandomOpponentCreature.cs" />
+    <Compile Include="Assets\Scripts\Logic\CreatureScripts\DestoryAllCreaturesWithLowAttack.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\DrawCardBattlecry.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\DrawCardBattlecryDeathrattle.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\EndTurnBuff.cs" />
+    <Compile Include="Assets\Scripts\Logic\CreatureScripts\EndTurnBuffAttack.cs" />
+    <Compile Include="Assets\Scripts\Logic\CreatureScripts\EndTurnBuffCreature.cs" />
+    <Compile Include="Assets\Scripts\Logic\CreatureScripts\EndTurnBuffFriendlyCreatures.cs" />
+    <Compile Include="Assets\Scripts\Logic\CreatureScripts\EndTurnDamageEnemy.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\EndTurnSmallBuff.cs" />
+    <Compile Include="Assets\Scripts\Logic\CreatureScripts\Fake77.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\GainAtkBattlecry.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\HealEndTurn.cs" />
+    <Compile Include="Assets\Scripts\Logic\CreatureScripts\HealPlayerEndTurn.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\IotAtkBattlecry.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\IotAtkHpBattlecry.cs" />
     <Compile Include="Assets\Scripts\Logic\CreatureScripts\IotHpBattlecry.cs" />
-    <Compile Include="Assets\Scripts\Logic\Deck.cs" />
     <Compile Include="Assets\Scripts\Logic\Hand.cs" />
     <Compile Include="Assets\Scripts\Logic\IDFactory.cs" />
     <Compile Include="Assets\Scripts\Logic\Interfaces.cs" />
     <Compile Include="Assets\Scripts\Logic\Player.cs" />
     <Compile Include="Assets\Scripts\Logic\RopeTimer.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\AdvancedOptimize.cs" />
+    <Compile Include="Assets\Scripts\Logic\SpellScripts\AverageFilter.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\AWSCredit.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\BonusMana.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\CardThrow.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\ChangeStatsTarget.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\DamageAllCharacters.cs" />
+    <Compile Include="Assets\Scripts\Logic\SpellScripts\DamageAllCreatures.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\DamageAllOpponentCreatures.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\DealDamageToTarget.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\DestroyRandomFriendlyEnemyMinion.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\Diligence.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\DrawForEachDamagedFriendly.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\DrawIfEmptyHand.cs" />
+    <Compile Include="Assets\Scripts\Logic\SpellScripts\GitClone.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\GiveManaBonus.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\HeroPower2Face.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\HeroPowerDrawCardTakeDamage.cs" />
+    <Compile Include="Assets\Scripts\Logic\SpellScripts\LateSubmission.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\Loan.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\ManaBurn.cs" />
+    <Compile Include="Assets\Scripts\Logic\SpellScripts\MaxPooling.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\Optimize.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\Rigor.cs" />
     <Compile Include="Assets\Scripts\Logic\SpellScripts\ShortSelling.cs" />
