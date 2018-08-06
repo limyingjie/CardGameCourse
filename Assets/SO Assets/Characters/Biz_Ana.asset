@@ -21,13 +21,13 @@ MonoBehaviour:
   HeroPowerBGImage: {fileID: 0}
   AvatarBGTint:
     serializedVersion: 2
-    rgba: 10571048
+    rgba: 4255206696
   HeroPowerBGTint:
     serializedVersion: 2
-    rgba: 7877949
+    rgba: 4252513597
   ClassCardTint:
     serializedVersion: 2
-    rgba: 14797560
+    rgba: 4292987640
   ClassRibbonsTint:
     serializedVersion: 2
-    rgba: 5499372
+    rgba: 4206524630

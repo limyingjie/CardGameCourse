@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 917561878a8602640ab159ede231f37f, type: 3}
   m_Name: WONG JANG
   m_EditorClassIdentifier: 
-  Class: 1
+  Class: 4
   ClassName: WONG JANG
   MaxHealth: 30
   HeroPowerName: HeroPower2Face
