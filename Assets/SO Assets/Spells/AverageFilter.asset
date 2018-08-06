@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Name: AverageFilter
   m_EditorClassIdentifier: 
   characterAsset: {fileID: 0}
-  Description: 
-  CardImage: {fileID: 0}
-  ManaCost: 0
+  Description: Deal 4 damage to creatures with attack <3 and >5
+  CardImage: {fileID: 21300000, guid: a6c65b73f354a4b8c8116eb7bec80480, type: 3}
+  ManaCost: 6
   OverloadCost: 0
   MaxHealth: 0
   Attack: 0
@@ -23,6 +23,6 @@ MonoBehaviour:
   Taunt: 0
   CreatureScriptName: 
   specialCreatureAmount: 0
-  SpellScriptName: 
-  specialSpellAmount: 0
+  SpellScriptName: AverageFilter
+  specialSpellAmount: 4
   Targets: 0
