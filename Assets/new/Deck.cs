@@ -16,6 +16,8 @@ public class Deck : MonoBehaviour {
             created = true;
             Debug.Log("Awake: " + this.gameObject);
         }
+
+        cards.Shuffle();
     }
 
     public void shuffle(){

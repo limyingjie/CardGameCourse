@@ -1549,7 +1549,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 64df78d3ffee4284686c6b2604d84ebc, type: 2}
   - {fileID: 11400000, guid: 2cdc692c2e553394fb786dfdc93cdb29, type: 2}
   - {fileID: 11400000, guid: d494b857d69fba140af08fc8c89836d3, type: 2}
-  cardsNo: 25
+  cardsNo: 30
 --- !u!1001 &416513688
 Prefab:
   m_ObjectHideFlags: 0
