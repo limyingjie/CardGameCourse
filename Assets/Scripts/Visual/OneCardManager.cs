@@ -11,8 +11,10 @@ public class OneCardManager : MonoBehaviour {
     public Text NameText;
     public Text ManaCostText;
     public Text DescriptionText;
-    public Text HealthText;
-    public Text AttackText;
+    public Text HealthText ;
+    public Text AttackText ;
+    private GameObject Health;
+    private GameObject Attack;
     [Header("Image References")]
     public Image CardTopRibbonImage;
     public Image CardLowRibbonImage;
@@ -76,6 +78,12 @@ public class OneCardManager : MonoBehaviour {
             // this is a creature
             AttackText.text = cardAsset.Attack.ToString();
             HealthText.text = cardAsset.MaxHealth.ToString();
+        }else{
+            // print("00");
+            Health = gameObject.transform.Find("Health").gameObject;
+            Attack = gameObject.transform.Find("Attack").gameObject;
+            Health.SetActive(false);
+            Attack.SetActive(false);
         }
 
         if (PreviewManager != null)

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: BurnerPhone
   m_EditorClassIdentifier: 
   characterAsset: {fileID: 0}
-  Description: 
+  Description: Charge
   CardImage: {fileID: 21300000, guid: 06d1cef06e682ee4c9d482d8825eebbe, type: 3}
   ManaCost: 3
   OverloadCost: 0
