@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 471}
   m_MaxSize: {x: 14002, y: 14021}
   vertical: 0
-  controlID: 3622
+  controlID: 954
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 471}
   m_MaxSize: {x: 10000, y: 14021}
   vertical: 1
-  controlID: 3554
+  controlID: 905
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 3555
+  controlID: 1003
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -367,9 +367,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b62f0000
+    m_SelectedIDs: 244d0000
     m_LastClickedID: 0
-    m_ExpandedIDs: 9cfbffff9efbfffff4ffffff00000000
+    m_ExpandedIDs: 5ae7ffff5ce7ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -536,19 +536,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/SO Assets/Creatures/Actual/Boss3
+    - Assets/SO Assets/Spells
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/SO Assets/Creatures/Actual/Boss3
+  - Assets/SO Assets/Spells
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\YingJie\Desktop\term8\GAME\Project\unity\CardGameCourse609Conclusions\CardGameCourse
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 309}
-    m_SelectedIDs: b62f0000
-    m_LastClickedID: 12214
-    m_ExpandedIDs: 00000000e02a00008c2c0000042d0000442d00007c2e0000682f0000b82f0000e82f00007e30000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 325}
+    m_SelectedIDs: 0e500000
+    m_LastClickedID: 20494
+    m_ExpandedIDs: 00000000624d0000644e0000ac4e0000d24e0000704f000014500000445000005e500000a850000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -576,7 +576,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e02a00008c2c0000042d0000442d00007c2e0000682f0000b82f0000e82f00007e30000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000624d0000644e0000ac4e0000d24e0000704f000014500000445000005e500000a850000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

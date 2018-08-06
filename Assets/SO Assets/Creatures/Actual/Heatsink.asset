@@ -21,7 +21,7 @@ MonoBehaviour:
   AttacksForOneTurn: 1
   Charge: 0
   Taunt: 0
-  CreatureScriptName: HealEndTurn
+  CreatureScriptName: HealPlayerEndTurn
   specialCreatureAmount: -3
   SpellScriptName: 
   specialSpellAmount: 0
