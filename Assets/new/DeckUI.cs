@@ -16,6 +16,9 @@ public class DeckUI : MonoBehaviour
 
 
     void Start(){
+    	if (Deck == null){
+    		Deck = GameObject.Find("DeckLogic").GetComponent<Deck>();
+    	}
 
         foreach (CardUI item in this.GetComponentsInChildren<CardUI>())
         {
@@ -36,9 +39,11 @@ public class DeckUI : MonoBehaviour
 
     
     public void display()
-    {
+    {	
+    	Deck = GameObject.Find("DeckLogic").GetComponent<Deck>();
+
         foreach (CardUI item in this.GetComponentsInChildren<CardUI>())
-        {
+        {	
             Destroy(item.gameObject);
         }
 
