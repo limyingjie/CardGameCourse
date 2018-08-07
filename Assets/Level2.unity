@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 8
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -39,7 +39,6 @@ RenderSettings:
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
   m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
-  m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -55,10 +54,11 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 10
+    serializedVersion: 9
     m_Resolution: 2
     m_BakeResolution: 40
-    m_AtlasSize: 1024
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
     m_AO: 0
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
@@ -3809,25 +3809,25 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 417a25f67bff37142b8ea8e212d036a3, type: 2}
   - {fileID: 11400000, guid: f0b46278264fd334ca18ec4ae0317263, type: 2}
   - {fileID: 11400000, guid: 417a25f67bff37142b8ea8e212d036a3, type: 2}
-  - {fileID: 11400000, guid: 64df78d3ffee4284686c6b2604d84ebc, type: 2}
-  - {fileID: 11400000, guid: 8fc3f806c883bf7478b6465500156bfb, type: 2}
+  - {fileID: 11400000, guid: 6840d683aa5b58542b7f27d60ed55158, type: 2}
+  - {fileID: 11400000, guid: fa9578421d3e41845bbee642c2dcefbb, type: 2}
   - {fileID: 11400000, guid: fa9578421d3e41845bbee642c2dcefbb, type: 2}
   - {fileID: 11400000, guid: 5ac7c222a79955648b1bdd1b8270c25c, type: 2}
   - {fileID: 11400000, guid: d63610a0234dfd742a5e778448a98811, type: 2}
-  - {fileID: 11400000, guid: 5971de69eb5f8244f9ca22f6008366b3, type: 2}
+  - {fileID: 11400000, guid: 96e16bb1d4d12ce45ac6106fa7641300, type: 2}
   - {fileID: 11400000, guid: 1aea37ac02522784c8a09dd35f8ea31c, type: 2}
   - {fileID: 11400000, guid: d63610a0234dfd742a5e778448a98811, type: 2}
   - {fileID: 11400000, guid: 3bb8faf2be0b0c24f8d0db6467524014, type: 2}
   - {fileID: 11400000, guid: baaed51c9d15e8b40abd7ee679fff00c, type: 2}
   - {fileID: 11400000, guid: 0b648427b72e78f4f9c3871e368c6a23, type: 2}
   - {fileID: 11400000, guid: d63610a0234dfd742a5e778448a98811, type: 2}
-  - {fileID: 11400000, guid: 5971de69eb5f8244f9ca22f6008366b3, type: 2}
+  - {fileID: 11400000, guid: 96e16bb1d4d12ce45ac6106fa7641300, type: 2}
   - {fileID: 11400000, guid: 501a47c63df90604db766ba1530282a5, type: 2}
   - {fileID: 11400000, guid: 12669e510bb007740b2c8bc2de5b27f5, type: 2}
-  - {fileID: 11400000, guid: 523e557a04f44834aae640c5bd8c7783, type: 2}
+  - {fileID: 11400000, guid: 12669e510bb007740b2c8bc2de5b27f5, type: 2}
   - {fileID: 11400000, guid: 12669e510bb007740b2c8bc2de5b27f5, type: 2}
   - {fileID: 11400000, guid: 6840d683aa5b58542b7f27d60ed55158, type: 2}
-  - {fileID: 11400000, guid: 64df78d3ffee4284686c6b2604d84ebc, type: 2}
+  - {fileID: 11400000, guid: fa9578421d3e41845bbee642c2dcefbb, type: 2}
   - {fileID: 11400000, guid: 2cdc692c2e553394fb786dfdc93cdb29, type: 2}
   - {fileID: 11400000, guid: d494b857d69fba140af08fc8c89836d3, type: 2}
   cardsNo: 25
@@ -4422,7 +4422,7 @@ Prefab:
     - target: {fileID: 224000013608011420, guid: eab9cb833a203ab45b6748872af6c306,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 147.96512
       objectReference: {fileID: 0}
     - target: {fileID: 224000010808429978, guid: eab9cb833a203ab45b6748872af6c306,
         type: 2}
@@ -5564,7 +5564,6 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:

@@ -14,9 +14,9 @@ MonoBehaviour:
   Class: 0
   ClassName: Biz_Ana
   MaxHealth: 30
-  HeroPowerName: HeroPower2Face
+  HeroPowerName: HeroPowerDrawCardTakeDamage
   AvatarImage: {fileID: 21300000, guid: 5e48b2cfb2aa92b4eaa5da3c752cd0bb, type: 3}
-  HeroPowerIconImage: {fileID: 21300000, guid: d82d60a0de6a06a4d965f2e298847d9f, type: 3}
+  HeroPowerIconImage: {fileID: 21300000, guid: 1b17c6327b70beb46910303376eea71b, type: 3}
   AvatarBGImage: {fileID: 0}
   HeroPowerBGImage: {fileID: 0}
   AvatarBGTint:

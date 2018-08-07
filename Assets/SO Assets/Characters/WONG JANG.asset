@@ -16,7 +16,7 @@ MonoBehaviour:
   MaxHealth: 30
   HeroPowerName: HeroPower2Face
   AvatarImage: {fileID: 21300000, guid: b2c2c06cb17fc664fbc42ddde48fa85e, type: 3}
-  HeroPowerIconImage: {fileID: 21300000, guid: 1b17c6327b70beb46910303376eea71b, type: 3}
+  HeroPowerIconImage: {fileID: 21300000, guid: d82d60a0de6a06a4d965f2e298847d9f, type: 3}
   AvatarBGImage: {fileID: 0}
   HeroPowerBGImage: {fileID: 0}
   AvatarBGTint:
